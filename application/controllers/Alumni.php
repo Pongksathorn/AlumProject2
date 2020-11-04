@@ -72,7 +72,6 @@ class Alumni extends CI_Controller
 		public function register(){
 			$data = array(
 				's_gender' => $this->input->post("s_gender"),
-				's_title' => $this->input->post("s_title"),
 				's_fname' => $this->input->post("s_fname"),
 				's_lname'=> $this->input->post("s_lname"),
 				's_nickname'=> $this->input->post("s_nickname"),
@@ -118,7 +117,6 @@ class Alumni extends CI_Controller
 				$data1 = array(
 					's_fname' => $this->input->post("s_fname"),
 					's_lname' => $this->input->post("s_lname"),
-					's_title' => $this->input->post("s_title"),
 					's_gender' => $this->input->post("s_gender"),
 					's_phone' => $this->input->post("s_phone"),
 					's_nickname' => $this->input->post("s_nickname"),
@@ -173,7 +171,6 @@ class Alumni extends CI_Controller
 			$this->session->set_flashdata("success", "เข้าสู่ระบบสำเร็จ");
 
 			$_SESSION['s_id'] = $user->s_id;
-			$_SESSION['s_title'] = $user->s_title;
 			$_SESSION['s_fname'] = $user->s_fname;
 			$_SESSION['s_lname'] = $user->s_lname;
 			$_SESSION['s_email'] = $user->s_email;
@@ -198,7 +195,6 @@ class Alumni extends CI_Controller
 		$data1 = array(
 			's_fname' => $this->input->post("s_fname"),
 			's_lname' => $this->input->post("s_lname"),
-			's_title' => $this->input->post("s_title"),
 			's_gender' => $this->input->post("s_gender"),
 			's_phone' => $this->input->post("s_phone"),
 			's_nickname' => $this->input->post("s_nickname"),

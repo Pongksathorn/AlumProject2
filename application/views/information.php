@@ -42,18 +42,7 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="row">
-                                    <div class="form-group col-sm-2">
-                                        <label for="">คำนำหน้า</label>
-                                        <select class="browser-default custom-select" name="s_title">
-                                            <option value="<?php echo $result['s_title'] ?>" selected><?php echo $result['s_title'] ?> </option>
-                                            <option value="นาย">นาย</option>
-                                            <option value="นาง">นาง</option>
-                                            <option value="นางสาว">นางสาว</option>
-                                        </select>
-                                        <div class="invalid-feedback">
-                                            กรุณาเลือกคำนำหน้า
-                                        </div>
-                                    </div>
+                                    
    <div class="form-group col-sm-2">
                                         <label for="">เพศ</label>
                                         <input type="text" class="form-control" name="s_fname" value="<?php echo $result['s_gender'] ?>" autocomplete="off">

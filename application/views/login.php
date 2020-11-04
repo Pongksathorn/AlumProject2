@@ -36,8 +36,8 @@
         <form class="text-center mx-auto border border-light p-5 mt-5 mb-5 col-sm-6" id="form" method="POST" action="../Alumni/formlogin" novalidate>
 
 
-            <h5 class="display-3 black-text" id="title">ล็อคอิน</h5>
-
+            <h5 class="display-4 black-text" id="title">เข้าสู่ระบบ</h5>
+           <br>
             <?php if (isset($_SESSION['success'])) { ?>
                 <div class="alert alert-success"><?php echo $_SESSION['success'] ?></div>
             <?php
@@ -65,7 +65,7 @@
             </div>
 
             <!-- Sign in button -->
-            <button class="btn btn-success btn-lg active" name="but" type="submit">เข้าสู่ระบบ</button>
+            <button class="btn btn-primary btn-lg active" name="but" type="submit">เข้าสู่ระบบ</button>
 <br>
             <!-- Register -->
          

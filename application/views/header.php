@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ระบบลงทะเบียนศิษย์เก่า</title>
+    <title>ระบบศิษย์เก่า</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="img/title-npru.png" />
 
@@ -20,49 +20,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<div class="g"><img src="../../public/img/npru.png" class="img-fluid"  width="200" height="100"alt="Responsive image">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp; ระบบลงทะเบียนสมาชิกศิษย์เก่ามหาวิทยาลัยราชภัฎนครปฐม
+<div class="g">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../../public/img/npru.png" class="img-fluid"  width="150" height="100"alt="Responsive image">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ระบบลงทะเบียนสมาชิกศิษย์เก่ามหาวิทยาลัยราชภัฎนครปฐม
   </div>
   <style>
    .g {
-  background-color: gray;
+  background-color: CornflowerBlue;
   font-size: 30px;
 }
-.dropbtn {
-  background-color: green;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: green;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
 </style>
 </head>
 <BODY BGCOLOR="white">
@@ -70,26 +35,15 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">....................................
-      </li>
+     
       <li class="nav-item "<?php echo activate_menu('alumni/index'); ?>>
         <a class="nav-link" href="../alumni/index">หน้าเเรก <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">........................
-      </li>
-     
-      <li class="nav-item">
-        <a class="nav-link" href="#"></a>
-      </li>
-      <li class="nav-item">.....................................
-      </li>
-     
-      <li class="nav-item">...........................
-      </li>
-      <li class="nav-item"<?php echo activate_menu('alumni/find'); ?>>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <li class="nav-item"<?php echo activate_menu('alumni/find'); ?>>
       <a class="nav-link"  href="../alumni/find">ค้นหารายชื่อศิษย์เก่า</a>
       </li>
     </ul>
@@ -108,8 +62,8 @@
                     </div>
                 </li>
             <?php } else { ?>
-                <a role="button" class="btn btn-sm btn-primary " href="../alumni/reg">ลงทะเบียน</a>
-                <a role="button" class="btn btn-sm btn-primary " href="../alumni/login">เข้าสู่ระบบ</a>
+                <a role="button" class="btn btn-sm btn-success " href="../alumni/reg">ลงทะเบียน</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a role="button" class="btn btn-sm btn-info " href="../alumni/login">เข้าสู่ระบบ</a>&nbsp;&nbsp;
 
             <?php } ?>
         </ul>

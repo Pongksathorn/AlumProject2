@@ -148,7 +148,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
     }
   
     .supernova .form-all, .form-all {
-      background-color: #9b9b9b;
+      background-color: #00BFFF;
       border: 1px solid transparent;
     }
   
@@ -236,17 +236,6 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
           </div>
         </div>
       </li>
-      </li>
-      <li class="form-line form-line-column form-col-1" data-type="control_dropdown" id="id_33">
-        <label class="form-label form-label-top" id="label_33" for="input_33"> คำนำหน้า </label>
-        <div id="cid_33" class="form-input-wide">
-          <select class="form-dropdown" id="input_33" name="s_title" style="width:150px" data-component="dropdown" aria-labelledby="label_33">
-            <option value="">  </option>
-            <option value="นาย"> นาย </option>
-            <option value="นางสาว"> นางสาว </option>
-            <option value="นาง"> นาง </option>
-          </select>
-        </div>
       </li>
      
       <p>&nbsp;</p>
@@ -446,6 +435,10 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submitForm","qid":"2","text":"
         <label class="form-label form-label-left form-label-auto" id="label_25" for="input_25"> ปีการศึกษาที่เข้า </label>
   <select id="cars" name="s_year">
   <option value="เลือกหมู่เรียน">เลือกปีการศึกษา</option>
+  <option value="2544">2540</option>
+  <option value="2544">2541</option>
+  <option value="2544">2542</option>
+  <option value="2544">2543</option>
   <option value="2544">2544</option>
   <option value="2545">2545</option>
   <option value="2546">2546</option>

@@ -1,3 +1,0 @@
-http://localhost/Alumni61-47/index.php/alumni/index
-		$this->load->model('Menu_model', 'Menu');
-https://alumni61-47.000webhostapp.com/index.php/alumni/index
